@@ -1,0 +1,5 @@
+@import "utilities/variables";
+p{
+  @extend %centered;
+  background-color: $malibu;
+}

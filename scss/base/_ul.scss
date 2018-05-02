@@ -1,0 +1,4 @@
+ul {
+  @extend %centered,%flexBox;
+  flex-direction: column;
+}
