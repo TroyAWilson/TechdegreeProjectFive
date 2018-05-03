@@ -1,26 +1,30 @@
 //**************************************************************
 // COLORS
 //**************************************************************
+$colors: (
+malibu: #4FE1F9,
+emerald: #63CC82,
+sunglo: #E4757A,
+coral: #FD7856,
+pmMajesty: #927BC1,
+grey: grey,
+);
 
-$malibu:#4FE1F9;
-$emerald:#63CC82;
-$sunglo:#E4757A;
-$coral:#FD7856;
-$pmMajesty:#927BC1;
-$grey: grey;
+$primary-color:map-get($colors, malibu);
+$text-color:map-get($colors, grey);
 
-$primary-color:$malibu;
-$text-color:$grey;
-$light-grey: lighten($grey, 10%);
-$dark-grey: darken($grey, 10%);
 
-$btn-default:$malibu;
-$btn-success:$emerald;
-$btn-error:$sunglo;
-$btn-warning:$coral;
-$btn-info:$pmMajesty;
+$btn-default:map-get($colors, malibu);
+$btn-success:map-get($colors, emerald);
+$btn-error:map-get($colors, sunglo);
+$btn-warning:map-get($colors, coral);
+$btn-info:map-get($colors, pmMajesty);
 
 
 //**************************************************************
-// OTHER
+// GRID
 //**************************************************************
+$g-col-width: 65px;
+$g-gutter-width: 20px;
+$g-col-count: 12;
+$g-content-maxWidth: 1050px;
