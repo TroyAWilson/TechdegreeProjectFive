@@ -4,3 +4,23 @@
 //     .img--logo
 //     .img--frame
 //     .img--avatar
+.img--logo{
+  display: flex;
+  margin: auto;
+}
+.img--frame{
+  max-width: 100%;
+}
+.img--avatar{
+  max-width: 50%;
+    margin:auto;
+}
+.img--frame{
+  border: 1px solid darken(whitesmoke, 10%);
+  padding: 10px;
+}
+.img--avatar{
+  display: flex;
+  align-self: center;
+  margin: 15px auto;
+}

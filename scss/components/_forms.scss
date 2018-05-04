@@ -4,3 +4,29 @@
 // .form
 // .form__label--hidden
 // .form__input
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // margin: 25px;
+  margin-top: 50px;
+}
+#forms {
+  margin: 15px 0;
+}
+.form label,
+.form legend {
+  align-self: flex-start;
+}
+.form label{
+  display:none;
+}
+.form__input{
+  width: 100%;
+  border:none;
+  border-bottom: 5px solid map-get($colors, malibu);
+  margin: 15px;
+  padding: 10px;
+  font-size: 12px;
+}

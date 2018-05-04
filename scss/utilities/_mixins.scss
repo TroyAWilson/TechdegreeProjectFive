@@ -10,9 +10,15 @@
 
   .grid__col--#{$i} {
     width: percentage($target/$context);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+
     // background-color: tomato;
     }
+}
+
+
+@each $grid-color, $color in $grid-colors{
+
+  .grid__col--#{$grid-color}.theme__colors{
+    background-color: $color;
+  }
 }

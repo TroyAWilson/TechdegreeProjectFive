@@ -2,4 +2,31 @@
 
 // Navigation:
 // .nav__item
-@import "../utilities/_placeholders";
+.nav{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+.nav__item{
+  padding: 13px;
+  margin: 2px;
+  border-radius: 5px;
+  background-color: white;
+  width: 100%;
+
+}
+
+.nav__item a {
+  color: map-get($colors, grey);
+}
+.nav__item:hover{
+  background-color: $primary-color;
+  a{
+    color:white;
+  }
+}

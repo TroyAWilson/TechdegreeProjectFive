@@ -1,6 +1,11 @@
 //**************************************************************
 // COLORS
 //**************************************************************
+
+
+
+
+//Maps
 $colors: (
 malibu: #4FE1F9,
 emerald: #63CC82,
@@ -8,6 +13,15 @@ sunglo: #E4757A,
 coral: #FD7856,
 pmMajesty: #927BC1,
 grey: grey,
+);
+$grid-colors: (
+12: #80E8D1,
+6: #3FABCA,
+4: #7EE6FD,
+3: #DEB2EE,
+5: #88D9A0,
+7: #EC9FA3,
+8: #FD9F85
 );
 
 $primary-color:map-get($colors, malibu);
