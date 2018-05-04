@@ -12,6 +12,7 @@
     width: percentage($target/$context);
     display: flex;
     flex-direction: column;
-    // width:percentage($target / $context);
-  }
+    flex-wrap: wrap;
+    // background-color: tomato;
+    }
 }
