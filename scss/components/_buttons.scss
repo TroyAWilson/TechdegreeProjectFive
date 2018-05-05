@@ -23,3 +23,9 @@
 .btn--info{
   @include btn-style(pmMajesty);
 }
+
+@media(min-width: 700px){
+  button[class^="btn--"]{
+    margin: 25px;
+  }
+}

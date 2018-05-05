@@ -8,30 +8,6 @@
 //**************************************************************
 // Media Queries
 //**************************************************************
-@media(min-width: 700px){
-  .grid__row{
-    flex-direction: row;
-  }
-  div[class^="grid__col--12"]{
-    flex-direction: row;
-  }
-
-  div[class^="grid__col"].centered{
-    margin:auto;
-    max-width: 50%;
-  }
-  .nav{
-    flex-direction:row;
-  }
-
-  button[class^="btn--"]{
-    margin: 25px;
-  }
-  .container{
-    margin: 0 100px;
-  }
-}
-
 
 
 //**************************************************************
@@ -219,26 +195,26 @@
 //   width: 100%;
 // }
 
-@media(min-width: 700px){
-  .grid__row{
-    flex-direction: row;
-  }
-  div[class^="grid__col--12"]{
-    flex-direction: row;
-  }
-
-  div[class^="grid__col"].centered{
-    margin:auto;
-    max-width: 50%;
-  }
-  .nav{
-    flex-direction:row;
-  }
-
-  button[class^="btn--"]{
-    margin: 25px;
-  }
-  .container{
-    margin: 0 100px;
-  }
-}
+// @media(min-width: 700px){
+//   .grid__row{
+//     flex-direction: row;
+//   }
+//   div[class^="grid__col--12"]{
+//     flex-direction: row;
+//   }
+//
+//   div[class^="grid__col"].centered{
+//     margin:auto;
+//     max-width: 50%;
+//   }
+//   .nav{
+//     flex-direction:row;
+//   }
+//
+//   button[class^="btn--"]{
+//     margin: 25px;
+//   }
+//   .container{
+//     margin: 0 100px;
+//   }
+// }
