@@ -22,13 +22,12 @@ a{
 }
 .blockquote{
   border-left: 5px solid map-get($colors, malibu);
-  border-radius: 2px;
+  @include b-rad;
   margin:20px;
   font-style: italic;
   font-size: 1.2em;
   padding: 0 15px ;
 }
-
 .container {
   @include flex-col;
   margin:30px;

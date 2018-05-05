@@ -68,7 +68,7 @@ p {
   width: 100%;
   border: none;
   background-color: #4FE1F9;
-  border-radius: 5px;
+  border-radius: 3px;
   text-transform: uppercase; }
 
 .btn--success {
@@ -78,7 +78,7 @@ p {
   width: 100%;
   border: none;
   background-color: #63CC82;
-  border-radius: 5px;
+  border-radius: 3px;
   text-transform: uppercase; }
 
 .btn--error {
@@ -88,7 +88,7 @@ p {
   width: 100%;
   border: none;
   background-color: #E4757A;
-  border-radius: 5px;
+  border-radius: 3px;
   text-transform: uppercase; }
 
 .btn--warning {
@@ -98,7 +98,7 @@ p {
   width: 100%;
   border: none;
   background-color: #FD7856;
-  border-radius: 5px;
+  border-radius: 3px;
   text-transform: uppercase; }
 
 .btn--info {
@@ -108,7 +108,7 @@ p {
   width: 100%;
   border: none;
   background-color: #927BC1;
-  border-radius: 5px;
+  border-radius: 3px;
   text-transform: uppercase; }
 
 .grid__col--1 {
@@ -246,7 +246,7 @@ p {
 div[class^="grid__col"] {
   display: flex;
   flex-direction: column;
-  border-radius: 5px;
+  border-radius: 3px;
   margin: 5px;
   padding: 5px;
   width: 100%; }
@@ -316,7 +316,7 @@ a {
 
 .blockquote {
   border-left: 5px solid #4FE1F9;
-  border-radius: 2px;
+  border-radius: 3px;
   margin: 20px;
   font-style: italic;
   font-size: 1.2em;
