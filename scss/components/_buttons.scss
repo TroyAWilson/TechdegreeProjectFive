@@ -1,5 +1,6 @@
 //Buttons classes to use
 @import "utilities/variables";
+@import "utilities/mixins";
 // Buttons:
 // .btn--default
 // .btn--success
@@ -8,51 +9,17 @@
 // .btn--info
 // .theme__colors
 .btn--default {
-  color: white;
-  margin-bottom: 10px;
-  padding: 10px;
-  width: 100%;
-  border: none;
-  background-color: map-get($colors, malibu);
-  border-radius: 5px;
-  text-transform: uppercase;
+@include btn-style(malibu);
 }
 .btn--success{
-  text-transform: uppercase;
-  color: white;
-  margin-bottom: 10px;
-  padding: 10px;
-  width: 100%;
-  border: none;
-  background-color: map-get($colors, emerald);
-  border-radius: 5px;
+  @include btn-style(emerald);
 }
 .btn--error{
-  text-transform: uppercase;
-  color: white;
-  margin-bottom: 10px;
-  padding: 10px;
-  width: 100%;
-  border: none;
-  background-color: map-get($colors, sunglo);
-  border-radius: 5px;
+  @include btn-style(sunglo);
 }
 .btn--warning{
-  text-transform: uppercase;
-  color: white;
-  margin-bottom: 10px;
-  padding: 10px;
-  width: 100%;
-  border: none;
-  background-color: map-get($colors, coral);
-  border-radius: 5px;
+  @include btn-style(coral);
 }
 .btn--info{
-  text-transform: uppercase;
-  color: white;
-  padding: 10px;
-  width: 100%;
-  border: none;
-  background-color: map-get($colors, pmMajesty);
-  border-radius: 5px;
+  @include btn-style(pmMajesty);
 }

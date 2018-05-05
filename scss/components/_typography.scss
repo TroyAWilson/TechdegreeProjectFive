@@ -30,8 +30,7 @@ a{
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
+  @include flex-col;
   margin:30px;
   color:grey;
   font-family:sans-serif;

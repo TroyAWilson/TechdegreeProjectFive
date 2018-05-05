@@ -1,8 +1,42 @@
+//**************************************************************
+// MIXINS
+//**************************************************************
+
+@mixin b-rad {
+  border-radius: 5px;
+}
+@mixin btn-style($b-color){
+color: white;
+margin-bottom: 10px;
+padding: 10px;
+width: 100%;
+border: none;
+background-color: map-get($colors, $b-color);
+@include b-rad;
+text-transform: uppercase;
+}
+@mixin flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+//**************************************************************
+// FUNCTIONS
+//**************************************************************
+
+
+//Defines context for grids based on columns and gutters
 @function g-context($g-col-width,$g-col-count,$g-gutter-width){
   $g-context: ($g-col-width * $g-col-count) + ($g-gutter-width * ($g-col-count - 1));
   @return $g-context;
 }
 
+//For loop for creating columns, also giving them a fluid and different widths
 @for $i from 1 through $g-col-count {
 
   $context: g-context($g-col-width, $g-col-count, $g-gutter-width);
@@ -10,12 +44,9 @@
 
   .grid__col--#{$i} {
     width: percentage($target/$context);
-
-    // background-color: tomato;
     }
 }
-
-
+//loop that itterates though color map and applied to its respective column
 @each $grid-color, $color in $grid-colors{
 
   .grid__col--#{$grid-color}.theme__colors{
