@@ -35,7 +35,7 @@ a{
   font-family:sans-serif;
   line-height: 1.3;
 
-  @media(min-width: 700px){
+  @include mq{
       margin: 0 100px;
   }
 }

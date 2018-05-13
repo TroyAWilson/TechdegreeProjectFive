@@ -1,6 +1,6 @@
 //Buttons classes to use
-@import "utilities/variables";
-@import "utilities/mixins";
+// @import "utilities/variables";
+// @import "utilities/mixins";
 // Buttons:
 // .btn--default
 // .btn--success
@@ -24,7 +24,7 @@
   @include btn-style(pmMajesty);
 }
 
-@media(min-width: 700px){
+@include mq{
   button[class^="btn--"]{
     margin: 25px;
   }

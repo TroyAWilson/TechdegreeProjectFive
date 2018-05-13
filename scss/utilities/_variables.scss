@@ -2,7 +2,8 @@
 // COLORS
 //**************************************************************
 
-
+//Media break
+$break: 700px;
 
 
 //Maps
@@ -14,6 +15,7 @@ coral: #FD7856,
 pmMajesty: #927BC1,
 grey: grey,
 );
+
 $grid-colors: (
 12: #80E8D1,
 6: #3FABCA,
@@ -23,11 +25,11 @@ $grid-colors: (
 7: #EC9FA3,
 8: #FD9F85
 );
-
+// Multiuse colors
 $primary-color:map-get($colors, malibu);
 $text-color:map-get($colors, grey);
 
-
+//Button colors
 $btn-default:map-get($colors, malibu);
 $btn-success:map-get($colors, emerald);
 $btn-error:map-get($colors, sunglo);
