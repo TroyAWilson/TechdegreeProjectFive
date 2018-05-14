@@ -22,9 +22,7 @@ text-transform: uppercase;
 @mixin flex-row{
   flex-direction: row;
 }
-@mixin mq-break{
-  min-width: 700px
-}
+
 @mixin mq{
     @media(min-width: $break){
       @content;

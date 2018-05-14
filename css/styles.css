@@ -1,3 +1,4 @@
+@import url(normalize.css);
 .grid__col--1 {
   width: 6.5%; }
 
@@ -54,6 +55,12 @@
 
 .grid__col--8.theme__colors {
   background-color: #FD9F85; }
+
+p {
+  width: 100%; }
+
+* {
+  box-sizing: border-box; }
 
 .btn--default {
   color: white;
@@ -228,11 +235,5 @@ a {
   @media (min-width: 700px) {
     .container {
       margin: 0 100px; } }
-
-p {
-  width: 100%; }
-
-* {
-  box-sizing: border-box; }
 
 /*# sourceMappingURL=styles.css.map */
